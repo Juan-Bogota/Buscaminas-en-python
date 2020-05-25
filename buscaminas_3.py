@@ -111,7 +111,7 @@ def presentacion():
 def menu():
     """ devuelve el movimiento u opcion elegida por el usuario"""
     print()
-    opcion = input("w/s/a/d - m - b/v? ")
+    opcion = input("w(up)/s(down)/a(left)/d(right) - m - b(check)/v(uncheck)? ")
     return opcion
 
 """Parametros del juego """
