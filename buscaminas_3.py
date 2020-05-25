@@ -116,15 +116,15 @@ def menu():
 
 """Parametros del juego """
 
-columnas = 6
-filas = 6
+columnas = 16
+filas = 12
 
 visible = crear_tablero(filas, columnas, "-")
 oculto = crear_tablero(filas, columnas, 0)
 
 """Minas"""
 
-oculto, minas_ocultas = coloca_minas(oculto, 2, filas, columnas)
+oculto, minas_ocultas = coloca_minas(oculto, 20, filas, columnas)
 oculto = colocar_pistas(oculto, filas, columnas)
 presentacion()
 
